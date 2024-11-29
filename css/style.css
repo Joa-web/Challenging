@@ -1,0 +1,15 @@
+@import "reset.css";
+@import "nav_bar.css";
+@import "login.css";
+/* Componetns */
+@import "components/logo.css";
+@import "components/welcome.css";
+
+
+.main-screen {
+    margin: 20px 10px 0px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}

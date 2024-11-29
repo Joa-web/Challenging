@@ -1,0 +1,32 @@
+.btn-logo {
+    text-align: center;
+    margin-top: 50px;
+}
+.btn-logo__image{
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
+}
+.btn-logo__image:hover {
+    animation: logo 1.2s ease-in-out;
+}
+@keyframes logo {
+    30% {        
+        transform: perspective(800px) rotateY(0deg);
+    }
+    70% {
+        transform: perspective(800px) rotateY(360deg);
+    }
+}
+.hlep-logo {
+    position: fixed;
+    right: 28px;
+    bottom: 20px;
+}
+.hlep-logo__images {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: url('../../images/logo.png');
+    background-size: cover;
+}

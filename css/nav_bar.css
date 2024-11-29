@@ -1,0 +1,14 @@
+.nav-bar__list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    color: rgba(0, 0, 0, 0.4);
+}
+.nav-bar__icon i {
+    margin-left: 7px;
+}
