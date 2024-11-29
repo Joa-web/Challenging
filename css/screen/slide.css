@@ -1,0 +1,63 @@
+.btn-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider {
+    overflow: hidden;
+    position: relative;
+    width: 380px;
+    height: 200px;
+    position: relative;
+    top: 80px;
+    left: -5px;
+}
+.slide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    animation: slide 10s infinite;
+}
+.slider .slide:nth-child(1) {
+    background-image: url('https://mblogthumb-phinf.pstatic.net/MjAyMTA0MTRfMjcy/MDAxNjE4NDEwMzI1NDU2.3J-v5wqS6jQ9Uj0xTRWaLzVRLAtdIebGSV6iAVoWpaEg.BQ-d_BYR2QVgAZoOMkFsRdKpX9A2mbml7IlDfPa7lH4g.JPEG.nydelphie/L1240226.jpg?type=w800');
+    animation-delay: -0;
+  }
+  
+  .slider .slide:nth-child(2) {
+    background-image: url('https://www.travelnbike.com/news/photo/201905/82404_155155_91.jpg');
+    animation-delay: -2s;
+  }
+    
+  .slider .slide:nth-child(3) {
+    background-image: url('https://cdn.onseoul.net/news/photo/202305/26349_27295_3010.jpg');
+    animation-delay: -4s;
+  }
+    
+  .slider .slide:nth-child(4) {
+    background-image: url('https://cdn.news.eugenes.co.kr/news/photo/201608/2245_4430_324.jpg');
+    animation-delay: -6s;
+  }
+  
+  .slider .slide:nth-child(5) {
+    background-image: url('https://i.namu.wiki/i/t2zvEe7ws93H0jrNgi_6co5wMkXToxQuGkmO7AhHbMrhPBSY9LZwNpthQZRkWYxYBB2ZPj8M08p5vw_yOJAz_g.webp');
+    animation-delay: -8s;
+  }
+  
+  @keyframes slide {
+    0%, 15%, 100% {
+      transform: translateX(0);
+      animation-timing-function: ease;
+    }
+    20% {
+      transform: translateX(-100%);
+      animation-timing-function: step-end;
+    }
+    95% {
+      transform: translateX(100%);
+      animation-timing-function: ease;
+    }
+  }

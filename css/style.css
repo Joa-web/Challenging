@@ -4,7 +4,8 @@
 /* Componetns */
 @import "components/logo.css";
 @import "components/welcome.css";
-
+/* screen */
+@import "screen/slide.css";
 
 .main-screen {
     margin: 20px 10px 0px;
