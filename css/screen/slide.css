@@ -1,16 +1,19 @@
+.slide-screen {
+  margin: 100px 8px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .btn-slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-right: 10px;
 }
 .slider {
     overflow: hidden;
+    width: 400px;
+    height: 250px;
+    margin-right: 10px;
     position: relative;
-    width: 380px;
-    height: 200px;
-    position: relative;
-    top: 80px;
-    left: -5px;
+    border-radius: 25px;
 }
 .slide {
     position: absolute;
@@ -18,31 +21,32 @@
     top: 0;
     width: 100%;
     height: 100%;
+    border-radius: 25px;
     background-size: cover;
     background-position: center;
     animation: slide 10s infinite;
 }
-.slider .slide:nth-child(1) {
-    background-image: url('https://mblogthumb-phinf.pstatic.net/MjAyMTA0MTRfMjcy/MDAxNjE4NDEwMzI1NDU2.3J-v5wqS6jQ9Uj0xTRWaLzVRLAtdIebGSV6iAVoWpaEg.BQ-d_BYR2QVgAZoOMkFsRdKpX9A2mbml7IlDfPa7lH4g.JPEG.nydelphie/L1240226.jpg?type=w800');
+.slide:nth-child(1) {
+    background-image: url('https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQDkYfN0SrhTIVwyN_m9o03XaZZ_VRGg1VoYIXFSFBbpk33JqVaYd9Nq9KnxC-sIquD-e8jo0yE1RHHF15EkVWBpnQ6-Tu1jO6psWCCkA');
     animation-delay: -0;
   }
   
-  .slider .slide:nth-child(2) {
-    background-image: url('https://www.travelnbike.com/news/photo/201905/82404_155155_91.jpg');
+.slide:nth-child(2) {
+    background-image: url('https://korean.visitseoul.net/data/POST/20151231//1231225004912-8dee7d13d47c432dbb72ed0f2daf70f4.jpg');
     animation-delay: -2s;
   }
     
-  .slider .slide:nth-child(3) {
-    background-image: url('https://cdn.onseoul.net/news/photo/202305/26349_27295_3010.jpg');
+.slide:nth-child(3) {
+    background-image: url('https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA4MjJfMTkw%2FMDAxNzI0MjU1MzU0NzMz.Bt8iTdgIR232wrYv-cLwf-2x09CXcNg7mex_oSVlSoYg.ZsZdCqTEJtnBvCepGQJPLq9jGMotNH-o5V0W8F_-23Mg.JPEG%2F1_%25282%2529.jpg&type=sc960_832');
     animation-delay: -4s;
   }
     
-  .slider .slide:nth-child(4) {
+.slide:nth-child(4) {
     background-image: url('https://cdn.news.eugenes.co.kr/news/photo/201608/2245_4430_324.jpg');
     animation-delay: -6s;
   }
   
-  .slider .slide:nth-child(5) {
+.slide:nth-child(5) {
     background-image: url('https://i.namu.wiki/i/t2zvEe7ws93H0jrNgi_6co5wMkXToxQuGkmO7AhHbMrhPBSY9LZwNpthQZRkWYxYBB2ZPj8M08p5vw_yOJAz_g.webp');
     animation-delay: -8s;
   }
@@ -61,3 +65,10 @@
       animation-timing-function: ease;
     }
   }
+.slider-text * {
+  line-height: 2;
+  color: white;
+  font-size: 20px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 255, 0.5);
+}
+  
