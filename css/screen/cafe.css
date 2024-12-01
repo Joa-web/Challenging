@@ -1,0 +1,32 @@
+.main-content__bakery {
+    width: 170px;
+    height: 140px;
+    margin-right: 5px;
+    background: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA1MDJfMTA1%2FMDAxNzE0NjMzNTQ3MDQ2.DYaO0Uy4ZUXfmRLfKdhL6FdK3bqeU1yxuo8D8PEWtCQg.MpnqgLtQ8FMSd13JRqELdmRJ8Hzgb6NSB5_HYG-T0ZYg.PNG%2Fimage.png&type=sc960_832") center;
+    background-size: cover;
+    border-radius: 15px;
+  }  
+  .main-content__franchise {
+    width: 170px;
+    height: 140px;
+    background: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA4MTVfMjE1%2FMDAxNzIzNjk5MTU4MDE4.9XFmLituZOH5NkEdGkWay8Tn2RYJ7GPOtUdNIGGPtzYg.ZKd1HU4lUtpGtk6tJa9dAFVrRHv8WqyjwaMwG2HNlXcg.JPEG%2F%25C0%25CF%25BA%25BB_%25BD%25BA%25C5%25B8%25B9%25F7%25BD%25BA_%25C7%25D1%25C1%25A4_%25B8%25DE%25B4%25BA_%25B1%25C2%25C1%25EE_%25C5%25D2%25BA%25ED%25B7%25AF_%25C4%25C5_%25B0%25A1%25BE%25DF%25C7%25CF%25B4%25C2_%25C0%25CC%25C0%25AF_%25BA%25A3%25BD%25BA%25C6%25AE_3_4.JPG&type=a340") center;
+    background-size: cover;
+    border-radius: 15px;
+    margin-right: 5px;
+  }  
+  .main-content__book {
+    width: 170px;
+    height: 140px;
+    background: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzEwMTRfMTQ3%2FMDAxNjk3MjQ1NjUzMzMz.JdYRxtiAXqW596CxhcFRYd9vab0o03aESz06X_Z9Wu4g.w39a-WhObRsNe2r6vDyrzzRUVL-Fji1JYpVx676GOmYg.JPEG.swiss5112%2FKakaoTalk_20231013_065312989_03.jpg&type=sc960_832") center;
+    background-size: cover;
+    border-radius: 15px;
+    margin-right: 5px;
+  }  
+  .main-content__view {
+    width: 170px;
+    height: 140px;
+    background: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDExMjJfMTE5%2FMDAxNjA2MDUwOTk2NzYz.fxqSApOL3DlgpXdA5K3DNE3vlr0zlPh-Fpl4sNRRwv8g.wZKB3Rb2eB97FYxmP3u62eZ1340-oaVSAkpwNETH2m8g.JPEG.hyunjisee%2F20201112%25A3%25DF124327.jpg&type=sc960_832") center;
+    background-size: cover;
+    border-radius: 15px;
+    margin-right: 5px;
+  }  

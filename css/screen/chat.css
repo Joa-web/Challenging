@@ -1,0 +1,116 @@
+.chat-height {
+    height: 1000vh;
+}
+.chat-box {
+    animation: Faidin 0.5s linear;
+}
+.bot-profile {
+    margin: 150px 0px 0px 10px;
+    animation: moveright 2s linear;    
+}
+.bot-profile__message {
+    width: 150px;
+    height: 30px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    margin: 0px 0px 40px 60px;
+    font-size: 20px;
+    font-weight: 450;
+    animation: moveright 2s linear;    
+}
+.chat-center {
+    top: 50px;
+}
+.chat-center__text {
+    font-size: 50px;
+    font-weight: 600;
+    text-shadow: 2px 2px 6px rgba(0, 0, 255, 0.5);;
+}
+.user-profile {
+    background: url('../../images/profile.jpg') center;
+    background-size: cover;
+    position: absolute;
+    right: 20px;
+    animation: moveleft 2s linear;
+}
+.user-profile__message {
+    width: 150px;
+    height: 30px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border-top-right-radius: 0px;
+    font-size: 20px;
+    font-weight: 450;
+    position: absolute;
+    top: 340px;
+    right: 70px;
+    animation: moveleft 2s linear;
+}
+.text-box {
+    display: flex;
+   align-items: center;
+   position: fixed;
+   bottom: 10px;
+}
+.text-box__icon {
+    margin: 0px 25px;
+}
+.text-box__textbox {
+    width: 350px;
+    height: 25px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 20px;
+}
+.text-box input {
+    width: 300px;
+    outline: none;
+    border: none;
+}
+.text-box__textbox button {
+    margin-left: 5px;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.text-box__textbox button:active {
+    background-color: rgba(0, 255, 255, 0.5);
+}
+@keyframes Faidin {
+    from {
+        
+        opacity: 0;
+    }
+    to {
+        
+        opacity: 1;
+    }
+}
+@keyframes moveright {
+    from {
+        transform: translateX(-10px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+@keyframes moveleft {
+    from {
+        transform: translateX(10px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}

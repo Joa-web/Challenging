@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body class="chat-height">
+    <header>
+        <nav>
+            <ul class="nav-bar__list">
+                <li class="nav-bar__icon">
+                    <span>Tel<i class="fa-solid fa-signal fa-sm"></i></span>
+                </li>
+                <li>
+                    <span>11:27</span>
+                </li>
+                <li class="nav-bar__icon">
+                    <span>100%<i class="fa-solid fa-battery-full fa-lg"></i></span>
+                </li>
+            </ul>
+        </nav>
+        <nav>
+            <ul class="nav-bar__list chat-center">
+                <li>
+                    <a href="place.html">
+                        <i class="fa-solid fa-arrow-left-long fa-2xl"></i>
+                    </a>
+                </li>
+                <li>
+                    <span class="chat-center__text">Joa Bot</span>
+                </li>
+                <li class="nav-menu">
+                    <button class="nav-menu__icon"><i class="fa-solid fa-bars fa-2xl"></i></button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-screen">
+        <div class="chat-box">
+            <div class="help-logo__images bot-profile"></div>
+            <div class="bot-profile__message">
+                <p>무엇을 도와드릴까요?</p>
+            </div>
+            <a href="profile.html"><div class="help-logo__images user-profile"></div></a>
+            <div class="user-profile__message">
+                <p>데이트 코스 추천해주세요.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="text-box">
+            <div class="text-box__icon">
+                <span><i class="fa-solid fa-square-plus fa-2xl"></i></span>
+            </div>
+            <div class="text-box__textbox">
+                <input type="text" placeholder="메시지 입력">
+                <i class="fa-regular fa-face-smile fa-lg"></i>
+                <button><i class="fa-solid fa-arrow-up fa-lg"></i></button>
+            </div>
+        </div>
+    </footer>
+    <div id=no-mobile>
+        <span>화면이 너무 커요<i class="fa-regular fa-face-sad-cry"></i></span>
+    </div>
+    <script src="https://kit.fontawesome.com/02e4b06e97.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+.profile-page {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.profile-list {
+    position: static;
+    color: black;
+}
+.back-page {
+    margin: 60px 0px 40px 15px;
+}
+.profile-list__text {
+    font-size: 35px;
+    font-weight: 600;
+}
+.profile-image {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.profile-box, .friends-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.profile-text {
+    display: flex;
+    flex-direction: column;
+}
+.profile-text__name {
+    font-size: 35px;
+    font-weight: 600;
+    text-shadow: 2px 2px 6px rgba(0, 0, 255, 0.3);
+}
+.profile-text__info {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.4);
+}
+h2 {
+    font-size: 35px;
+    font-weight: 600;
+}
+.friends-box {
+    margin: 25px 0px;
+}
+.friends-box:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+.friends-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.friends-box .one {
+    background: url('../../images/firend.jpg') center;
+    background-size: cover;
+}
+.friends-box .two {
+    background: url('../../images/friend2.png') center;
+    background-size: cover;
+}
+.friends-box .three {
+    background: url('../../images/friend3.png') center;
+    background-size: cover;
+}
+@keyframes friends {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.friends-one {
+    animation: friends 1s linear;
+    animation-delay: 0.1s;
+}
+.friends-two {
+    animation: friends 1s linear;
+    animation-delay: 0.5s;
+}
+.friends-three {
+    animation: friends 1s linear;
+    animation-delay: 1s;
+}

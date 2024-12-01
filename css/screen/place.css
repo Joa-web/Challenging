@@ -1,0 +1,32 @@
+  .main-content__tower {
+    width: 170px;
+    height: 140px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQWDbhqTkjqyyZbpd49gCs5xNzBc72VqZP6w&s) center;
+    background-size: cover;
+    border-radius: 15px;
+    margin-right: 5px;
+  }  
+  .main-content__plaza {
+    width: 170px;
+    height: 140px;
+    background: url(https://pds.joongang.co.kr/news/component/joongang_sunday/201902/02/5a4a0947-5faa-48ba-855f-7b7f18676deb.jpg) center;
+    background-size: cover;
+    border-radius: 15px;
+    margin-right: 5px;
+  }  
+  .main-content__lib {
+    width: 170px;
+    height: 140px;
+    background: url(https://www.seoulfn.com/news/photo/202111/436872_207494_4249.gif) center;
+    background-size: cover;
+    border-radius: 15px;
+    margin-right: 5px;
+  }  
+  .main-content__park {
+    width: 170px;
+    height: 140px;
+    background: url(https://t3.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/1bCl/image/5ZbjiTcoRJIsnWqiW1CW9PJ4AuU.jpg) center;
+    background-size: cover;
+    border-radius: 15px;
+    margin-right: 5px;
+  }  

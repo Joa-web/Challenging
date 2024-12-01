@@ -1,0 +1,32 @@
+.main-content__meat {
+    width: 170px;
+    height: 140px;
+    margin-right: 5px;
+    background: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAxMDlfMTgy%2FMDAxNzA0NzYxNzEwNjky.9Ss04oJ4RaRmQW2FuGD88tEzZ0xNPUag5emBBMKWxMUg.JUBO6anHA6_k_rH7yt2cd8B363WXb5H16anUnEoDz0Yg.JPEG.lcy4182%2FIMG_9134.jpg&type=sc960_832") center;
+    background-size: cover;
+    border-radius: 15px;
+  }  
+  .main-content__western {
+    width: 170px;
+    height: 140px;
+    background: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA1MDJfMTMx%2FMDAxNjgzMDI4Mjc5Njky.GQP2mLchfPH-oIE97PHgsve9mhJ1AeZXA2f1tTRqhB8g.oVzakK_0ssnTykJQFeK3CQxIG6y-u2gMJ7VaWn1TuaMg.JPEG.qazqazsd11%2FCqtMxFeqY6vm93G48QJbjn.jpg&type=sc960_832") center;
+    background-size: cover;
+    border-radius: 15px;
+    margin-right: 5px;
+  }  
+  .main-content__korean {
+    width: 170px;
+    height: 140px;
+    background: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA2MDFfMzcg%2FMDAxNjU0MDc4Mzg2NTYz.hPAJBgpWIWi2_Iys99yWRkP8s5kTUKK-1WFF3KSX4c4g.tZCvQTZ8ZqOpDRvpiUaiocFTxgxaaD1Of9n0f4dFL7Ag.JPEG.kmj98601%2FIMG_5036.jpg&type=sc960_832") center;
+    background-size: cover;
+    border-radius: 15px;
+    margin-right: 5px;
+  }  
+  .main-content__japanese {
+    width: 170px;
+    height: 140px;
+    background: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA5MTNfMTE0%2FMDAxNzI2MjAyMzMxMTYx.OHspp0jGX0_qqoEcY5uNbdRjR6r3ikDXa8uGS9pYDscg.8lC_nyx9NDxcJk2ummPJd0Nk2itkQERjwtLgMDNHs6Ag.JPEG%2F20240909_133331.jpg&type=sc960_832") center;
+    background-size: cover;
+    border-radius: 15px;
+    margin-right: 5px;
+  }  

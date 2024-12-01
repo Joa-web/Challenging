@@ -1,0 +1,12 @@
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+  }
+  .main-content__box {
+    width: 243px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

@@ -7,7 +7,7 @@
 .btn-slide {
   margin-right: 10px;
 }
-.slider {
+.slider-place {
     overflow: hidden;
     width: 400px;
     height: 250px;
@@ -15,7 +15,7 @@
     position: relative;
     border-radius: 25px;
 }
-.slide {
+.slide-place {
     position: absolute;
     left: 0;
     top: 0;
@@ -24,34 +24,34 @@
     border-radius: 25px;
     background-size: cover;
     background-position: center;
-    animation: slide 10s infinite;
+    animation: slide-plcae 10s infinite;
 }
-.slide:nth-child(1) {
+.slide-place:nth-child(1) {
     background-image: url('https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQDkYfN0SrhTIVwyN_m9o03XaZZ_VRGg1VoYIXFSFBbpk33JqVaYd9Nq9KnxC-sIquD-e8jo0yE1RHHF15EkVWBpnQ6-Tu1jO6psWCCkA');
     animation-delay: -0;
   }
   
-.slide:nth-child(2) {
+.slide-place:nth-child(2) {
     background-image: url('https://korean.visitseoul.net/data/POST/20151231//1231225004912-8dee7d13d47c432dbb72ed0f2daf70f4.jpg');
     animation-delay: -2s;
   }
     
-.slide:nth-child(3) {
+.slide-place:nth-child(3) {
     background-image: url('https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA4MjJfMTkw%2FMDAxNzI0MjU1MzU0NzMz.Bt8iTdgIR232wrYv-cLwf-2x09CXcNg7mex_oSVlSoYg.ZsZdCqTEJtnBvCepGQJPLq9jGMotNH-o5V0W8F_-23Mg.JPEG%2F1_%25282%2529.jpg&type=sc960_832');
     animation-delay: -4s;
   }
     
-.slide:nth-child(4) {
+.slide-place:nth-child(4) {
     background-image: url('https://cdn.news.eugenes.co.kr/news/photo/201608/2245_4430_324.jpg');
     animation-delay: -6s;
   }
   
-.slide:nth-child(5) {
+.slide-place:nth-child(5) {
     background-image: url('https://i.namu.wiki/i/t2zvEe7ws93H0jrNgi_6co5wMkXToxQuGkmO7AhHbMrhPBSY9LZwNpthQZRkWYxYBB2ZPj8M08p5vw_yOJAz_g.webp');
     animation-delay: -8s;
   }
   
-  @keyframes slide {
+  @keyframes slide-plcae {
     0%, 15%, 100% {
       transform: translateX(0);
       animation-timing-function: ease;
@@ -67,8 +67,10 @@
   }
 .slider-text * {
   line-height: 2;
-  color: white;
+  color: black;
   font-size: 20px;
   text-shadow: 2px 2px 6px rgba(0, 0, 255, 0.5);
 }
-  
+.slider-text a p:hover {
+  transform: translate(5px, 5px);
+}
